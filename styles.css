@@ -130,6 +130,22 @@ header .icon {
   background-color: #149BFA;
 }
 
+.header-icon-holder:hover .center-text-icon {
+  content: url(images/icons/png/center-text-white.png);
+}
+
+.header-icon-holder:hover .user-icon {
+  content: url(images/icons/png/contacts-social-network-white.png);
+}
+
+.header-icon-holder:hover .computer-icon {
+  content: url(images/icons/png/computer-monitor-white.png);
+}
+
+.header-icon-holder:hover .tiles-icon {
+  content: url(images/icons/png/tiles-view-white.png);
+}
+
 header input {
   width: 72%;
   height: 70px;
@@ -172,6 +188,10 @@ h1 {
 .preview {
   color: #149BFA;
   cursor: pointer;
+}
+
+.preview:hover {
+  text-decoration: underline;
 }
 
 .banner-button-container {
