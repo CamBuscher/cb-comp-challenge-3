@@ -376,6 +376,7 @@ h1 {
 .vertical .progress-fill:hover {
   background: #319DA6;
   color: #319DA6;
+  cursor: pointer;
 }
 
 .button-container {
@@ -734,10 +735,6 @@ tr {
   .revealable { 
     display: inline-block;
   }
-
-  .banner-button {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 620px) {
@@ -751,6 +748,10 @@ tr {
   .social-media-button {
     height: 40px;
     width: 80%;
+  }
+
+  .twitter-button {
+    top: 0px;
   }
 
   .widget-container {
@@ -798,8 +799,24 @@ tr {
   .square-button {
     margin-left: 10px;
   }
+
   .job-description-table .right-column {
     width: 50%;
   }
 
+  h1 {
+    font-size: 18px;
+  }
+
+  .overview-banner {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .header-icon-holder {
+    display: none;
+  }
+
+  .last-icon-holder {
+    display: block;
+  }
 }
