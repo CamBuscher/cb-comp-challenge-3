@@ -1,6 +1,6 @@
 * {
-  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -9,9 +9,9 @@ a {
 }
 
 .icon {
+  cursor: pointer;
   display: inline-block;
   width: 12px;
-  cursor: pointer;
 }
 
 .barleys-icon {
@@ -19,29 +19,29 @@ a {
 }
 
 .larger-icon {
-  width: 30px;
   margin-top: 0;
+  width: 30px;
 }
 
 /* nav */
 
 .side-nav-bar {
   background-color: #354051;
-  width: 165px;
-  height: 1265px;
   display: inline-block;
-  position: absolute;
+  height: 1265px;
   left: 0px;
+  position: absolute;
+  width: 165px;
 }
 
 .nav-profile-section {
+  align-items: center;
+  border-bottom: 1.5px solid #1F252E;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  padding: 20px 0px;
-  border-bottom: 1.5px solid #1F252E;
   padding-bottom: 10px;
+  padding: 20px 0px;
 }
 
 .nav-profile-section p {
@@ -49,22 +49,22 @@ a {
 }
 
 .nav-profile-section a {
-  text-decoration: none;
   color: #A6B6D2;
   font-size: 12px;
+  text-decoration: none;
 }
 
 .profile-picture {
   border-radius: 100%;
-  width: 80px;
   margin: 10px auto;
+  width: 80px;
 }
 
 .nav-section {
-  padding: 0px;
+  border-bottom: 1.5px solid #1F252E;
   color: #949DAE;
   padding-bottom: 10px;
-  border-bottom: 1.5px solid #1F252E;
+  padding: 0px;
 }
 
 .categories-nav-section {
@@ -72,44 +72,44 @@ a {
 }
 
 .nav-bar-head {
-  margin-top: 8px;
   font-size: 12px;
+  margin-top: 8px;
   padding: 8px 0px 0px 12px;
 }
 
 .nav-bar-list {
-  font-size: 12px;
-  width: 100%;
-  border-left: 2px solid #354051;
-  padding-left: 12px;
+  border-left: 3px solid #35405100;
   color: #A6B6D2;
+  font-size: 12px;
+  padding-left: 12px;
+  width: 100%;
 }
 
 .nav-bar-list:hover {
   background-color: #293140;
-  width: 100%;
+  border-left: 3px solid #2567FF;
   color: #fff;
-  border-left: 2px solid #2567FF;
+  width: 100%;
 }
 
 /* main */
 
 main {
-  position: absolute;
-  left: 165px;
-  right: 0;
   bottom: 0px;
+  left: 165px;
+  position: absolute;
+  right: 0;
   top: 0px;
 }
 
 header {
-  height: 65px;
-  display: inline-flex;
   align-items: center;
-  width: 100%;
+  border-bottom: .25px solid #A6B6D2;
+  display: inline-flex;
+  height: 65px;
   margin-bottom: 5px;
   padding-bottom: 6px;
-  border-bottom: .25px solid #A6B6D2;
+  width: 100%;
 }
 
 header .icon {
@@ -126,8 +126,8 @@ header .icon {
 }
 
 .header-icon-holder:hover {
-  cursor: pointer;
   background-color: #149BFA;
+  cursor: pointer;
 }
 
 .header-icon-holder:hover .center-text-icon {
@@ -147,42 +147,43 @@ header .icon {
 }
 
 header input {
-  width: 72%;
-  height: 70px;
-  border: none;
   background-image: url(images/icons/png/search.png);
+  background-position: 20px 25px;
   background-repeat: no-repeat;
   background-size: 25px;
-  background-position: 20px 25px;
+  border: none;
+  border-right: .25px solid #A6B6D2;
+  height: 70px;
   padding-left: 60px;
+  width: 72%;
 }
 
 /* banner */
 
 .overview-banner {
-  height: 150px;
-  width: 100%;
-  padding: 0px 20px 0px 40px;
   box-sizing: border-box;
+  height: 150px;
+  padding: 0px 20px 0px 40px;
+  width: 100%;
 }
 
 .banner-text-container {
-  width: 50%;
-  min-width: 340px;
-  height: 70%;
   display: inline-block;
+  height: 70%;
+  min-width: 340px;
+  width: 50%;
 }
 
 h1 {
-  font-size: 20px;
   color: #354051;
+  font-size: 20px;
   margin-bottom: 5px;
   margin-top: 25px;
 }
 
 .banner-subhead {
-  font-size: 12px;
   color: #A6B6D2;
+  font-size: 12px;
 }
 
 .preview {
@@ -195,20 +196,20 @@ h1 {
 }
 
 .banner-button-container {
-  width: 18%;
-  min-width: 220px;
-  height: 70%;
-  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  display: inline-flex;
   float: right;
+  height: 70%;
+  justify-content: space-between;
+  min-width: 220px;
   padding-right: 3%;
+  width: 18%;
 }
 
 .banner-button {
+  border-radius: 42px;
   border: .5px solid #A6B6D2;
   height: 30px;
-  border-radius: 42px;
 }
 
 .circle-button {
@@ -220,13 +221,13 @@ h1 {
 }
 
 .oval-button {
-  min-width: 65px;
-  height: 30px;
-  border-radius: 15px;
-  font-size: 12px;
-  padding: 0px 10px;
-  display: inline-flex;
   align-items: center;
+  border-radius: 15px;
+  display: inline-flex;
+  font-size: 12px;
+  height: 30px;
+  min-width: 65px;
+  padding: 0px 10px;
 }
 
 .smaller-screen-button {
@@ -234,24 +235,24 @@ h1 {
 }
 
 .banner-tabs {
-  width: 85%;
   height: 25%;
   margin-top: 4px;
+  width: 85%;
 }
 
 .banner-tabs ul {
-  padding: 4px 0px 0px 0px;
   margin-top: 6px;
+  padding: 4px 0px 0px 0px;
 }
 
 .banner-tab-items {
-  display: inline-block;
+  border-bottom: 4px solid #fff;
   color: #A6B6D2;
+  display: inline-block;
   font-size: 12px;
   font-weight: 700;
-  padding: 0px 0px 10px 0px;
   margin-right: 5.5%;
-  border-bottom: 4px solid #fff;
+  padding: 0px 0px 10px 0px;
 }
 
 .banner-tab-items:hover {
@@ -260,22 +261,22 @@ h1 {
 }
 
 .revealable { 
-    display: none;
-  }
+  display: none;
+}
 
 /* graphs & below */
 
 .information-area {
   background-color: #EAF0F5;
   border-top: 2px solid #E1E7EB;
-  width: 100%;
   padding: 50px 34px 20px 40px;
+  width: 100%;
 }
 
 .donut-container {
-  width: 18%;
-  min-width: 100px;
   display: inline-block;
+  min-width: 100px;
+  width: 18%;
 }
 
 .chart-text {
@@ -286,111 +287,111 @@ h1 {
 }
 
 .chart-number {
+  -moz-transform: translateY(0em);
+  -ms-transform: translateY(0em);
+  -webkit-transform: translateY(0em);
   fill: #354051;
   font-size: 0.4em;
   font-weight: 700;
   line-height: .5;
   text-anchor: middle;
-  -moz-transform: translateY(0em);
-  -ms-transform: translateY(0em);
-  -webkit-transform: translateY(0em);
   transform: translateY(0em);
 }
 
 .chart-label {
-  fill: #949DAE;
-  font-size: 0.2em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-anchor: middle;
   -moz-transform: translateY(0.7em);
   -ms-transform: translateY(0.7em);
   -webkit-transform: translateY(0.7em);
+  fill: #949DAE;
+  font-size: 0.2em;
+  font-weight: 700;
+  text-anchor: middle;
+  text-transform: uppercase;
   transform: translateY(0.7em)
 }
 
 /* bar-graph */
 
 .info-card {
-  display: none;
   background-color: #000;
-  color: #fff;
-  font-size: 12px;
-  padding: 0px 10px;
-  border: 1px solid #c8c8c8;
   border-radius: 5px;
-  width: 110px;
-  text-align: center;
-  z-index: 2;
+  border: 1px solid #c8c8c8;
+  color: #fff;
+  display: none;
+  font-size: 12px;
   justify-content: center;
-  width: 150px;
   min-height: 50px;
+  padding: 0px 10px;
+  text-align: center;
+  width: 110px;
+  width: 150px;
+  z-index: 2;
 }
 
 .info-card .arrow {
-  border-style: solid;
-  position: absolute;
   border-color: #000 transparent transparent transparent;
+  border-style: solid;
   border-width: 8px 8px 0px 8px;
   bottom: -8px;
   left: 67px;
+  position: absolute;
 }
 
 .bar-graph-container {
-  width: 38%;
-  height: 160px;
   display: inline-block;
-  min-width: 340px;
+  height: 160px;
   margin-left: 3%;
+  min-width: 340px;
   position: relative;
   top: -30px;
+  width: 38%;
 }
 
 .x-axis-label {
-  position: relative;
   bottom: -3px;
   font-size: 12px;
+  position: relative;
 }
 
 .y-axis-labels {
   display: inline-flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 20px;
   float: left;
+  font-size: 9px;
+  justify-content: space-between;
   margin-right: 3%;
   margin-top: -10px;
   text-align: right;
-  font-size: 9px;
+  width: 20px;
 }
 
 .vertical .progress-bar {
+  border-radius: 3px;
   float: left;
   height: 100%;
-  width: 4%;
   margin-right: 2.5%;
   text-align: center;
-  border-radius: 3px;
+  width: 4%;
 }
 
 .vertical .progress-track {
-  position: relative;
-  height: 100%;
   background: #D5E1E8;
+  height: 100%;
+  position: relative;
 }
 
 .vertical .progress-fill {
-  position: relative;
   background: #3FADC0;
-  height: 50%;
-  width: 100%;
+  border-radius: 3px;
   color: #3FADC0;
-  overflow: hidden;
-  text-align: center;
   font-family: "Lato","Verdana",sans-serif;
   font-size: 12px;
+  height: 50%;
   line-height: 20px;
-  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 .vertical .progress-fill:hover {
@@ -400,9 +401,9 @@ h1 {
 }
 
 .button-container {
-  text-align: center;
-  margin-top: 10px;
   display: inline-block;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .donut-graph-button-container {
@@ -420,21 +421,21 @@ h1 {
 }
 
 .divider-section {
-  display: inline-flex;
   align-items: center;
+  display: inline-flex;
   height: 50px;
+  margin-bottom: 20px;
   position: relative;
   top: 20px;
   width: 100%;
-  margin-bottom: 20px;
 }
 
 .graph-text-divider {
   background: #D5E1E8;
-  height: 2px;
   border: 0px;
-  width: 47%;
   display: inline-block;
+  height: 2px;
+  width: 47%;
 }
 
 .graph-text-divider .left {
@@ -448,15 +449,15 @@ h1 {
 /* Job description area */
 
 .job-description-table {
-  display: inline-flex;
-  width: 65%;
-  min-width: 470px;
-  font-size: 12px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #D5E1E8;
-  justify-content: flex-start;
   align-items: flex-start;
+  border: 1px solid #D5E1E8;
+  display: inline-flex;
+  font-size: 12px;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-width: 470px;
+  width: 65%;
 }
 
 tbody {
@@ -468,19 +469,19 @@ tr {
 }
 
 .job-description-table td {
-  display: inline-flex;
-  padding-top: 20px;
-  justify-content: flex-start;
   align-items: flex-start;
-  min-height: 70px;
   background-color: #FFF;
   color: #64738A;
+  display: inline-flex;
+  justify-content: flex-start;
+  min-height: 70px;
+  padding-top: 20px;
 }
 
 .job-description-table .left-column {
-  width: 25%;
   min-width: 140px;
   padding-left: 18px;
+  width: 25%;
 }
 
 .job-description-table .extra-margin {
@@ -488,11 +489,11 @@ tr {
 }
 
 .job-description-table .right-column {
-  width: 75%;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  display: inline-flex;
   align-items: center;
+  display: inline-flex;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  width: 75%;
 }
 
 .job-description-table .no-padding-top {
@@ -513,9 +514,9 @@ tr {
 
 .square-button {
   background-color: #73819D;
+  border: none;
   color: #FFF;
   height: 26px;
-  border: none;
   padding: 0px 10px; 
 }
 
@@ -532,33 +533,33 @@ tr {
 
 .social-media-area {
   display: inline-block;
-  width: 30%;
-  height: 300px;
   float: right;
+  height: 300px;
   margin-top: 20px;
+  width: 30%;
 }
 
 .social-media-button {
-  height: 40px;
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-  color: #FFF;
-  padding-top: 6px;
-  margin-bottom: 12px;
   border: none;
+  color: #FFF;
+  font-size: 12px;
+  height: 40px;
+  margin-bottom: 12px;
+  padding-top: 6px;
+  text-align: center;
+  width: 100%;
 }
 
 .social-media-button:hover {
-  box-shadow: 1px 1px 4px #000;
   border: none; 
+  box-shadow: 1px 1px 4px #000;
 }
 
 .social-icon {
   float: left;
-  width: 24px;
-  margin-top: -4px;
   margin-right: -24px;
+  margin-top: -4px;
+  width: 24px;
 }
 
 .facebook-button {
@@ -570,8 +571,8 @@ tr {
 }
 
 .twitter-button .social-icon {
-  width: 20px;
   margin-left: 4px;
+  width: 20px;
 }
 
 .linkedin-button {
@@ -579,12 +580,12 @@ tr {
 }
 
 .widget-container h5 {
-  display: inline-flex;
   align-items: center;
-  font-size: 16px;
-  margin-top: 15px;
-  margin-bottom: 0px;
   color: #64738A;
+  display: inline-flex;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 15px;
 }
 
 .widget-icon {
@@ -592,32 +593,32 @@ tr {
 }
 
 .widget-container p {
-  font-size: 12px;
   color: #64738A;
+  font-size: 12px;
 }
 
 .widget-container input {
   border: none;
-  width: 80%;
-  height: 30px;
   font-size: 12px;
+  height: 30px;
   margin-right: -4px;
   padding-left: 20px;
+  width: 80%;
 }
 
 .widget-container button {
+  background-color: #00ACED;
   border: none;
+  color: #fff;
   height: 30px;
-  width: 19%;
   position: relative;
   top: 1px;
-  color: #fff;
-  background-color: #00ACED;
+  width: 19%;
 }
 
 .widget-container hr {
-  width: 100%;
   margin-top: 20px;
+  width: 100%;
 }
 
 .email-input {
@@ -628,8 +629,8 @@ tr {
 
 @media only screen and (max-width: 1220px) {
   .bar-graph-container {
-    top: 0;
     margin-bottom: 30px;
+    top: 0;
   }
 
   .banner-tab-items {
@@ -665,8 +666,8 @@ tr {
   }
 
   .information-area {
-    text-align: center;
     padding: 50px 20px 20px 20px;
+    text-align: center;
   }
 
   .graph-describer-button {
@@ -674,8 +675,8 @@ tr {
   }
 
   .donut-box {
-    width: 100%;
     text-align: center;
+    width: 100%;
   }
 
   .donut-container {
@@ -683,8 +684,8 @@ tr {
   }
 
   .bar-graph-container {
-    width: 65%;
     margin-top: 30px;
+    width: 65%;
   }
 
   .hide-when-small {
@@ -708,13 +709,13 @@ tr {
   }
 
   .social-media-area {
-    width: 100%;
     float: none;
+    width: 100%;
   }
 
   .social-media-button {
-    width: 27%;
     margin: 0 10px 10px 10px;
+    width: 27%;
   }
 
   .twitter-button {
@@ -723,10 +724,10 @@ tr {
   }
 
   .widget-container {
-    width: 40%;
     display: inline-block;
-    text-align: center;
     margin: 0 20px;
+    text-align: center;
+    width: 40%;
   }
 
   .widget-container hr {
@@ -740,8 +741,8 @@ tr {
 
 @media only screen and (max-width: 750px) {
   .job-description-table {
+    min-width: 470px;
     width: 65%;
-    min-width: 470px
   }
 
   .job-description-table .right-column {
@@ -760,9 +761,9 @@ tr {
 @media only screen and (max-width: 620px) {
   .social-media-area {
     display: inline-block;
-    width: 100%;
     height: 300px;
     margin-top: 20px;
+    width: 100%;
   }
 
   .social-media-button {
@@ -789,8 +790,8 @@ tr {
 
 @media only screen and (max-width: 510px) {
   .job-description-table {
-    width: 100%;
     min-width: unset;
+    width: 100%;
   }
 
   .job-description-table .right-column {
@@ -798,6 +799,16 @@ tr {
   }
 
 @media only screen and (max-width: 399px) {
+  main {
+    width: 100%;
+  }
+
+  header input {
+    font-size: 12px;
+    padding-left: 50px;
+    width: 76%;
+  }
+
   .information-area {
     padding: 10px;
   }
@@ -812,8 +823,8 @@ tr {
   }
 
   .donut-container {
-    width: 32%;
     min-width: unset;
+    width: 32%;
   }
 
   .square-button {
@@ -821,7 +832,7 @@ tr {
   }
 
   .job-description-table .right-column {
-    width: 50%;
+    width: 52%;
   }
 
   h1 {
@@ -829,14 +840,20 @@ tr {
   }
 
   .overview-banner {
-    padding: 0px 0px 20px 0px;
+    padding: 0px;
   }
 
   .header-icon-holder {
     display: none;
   }
 
+  .widget-container button {
+    font-size: 12px;
+  }
+
   .last-icon-holder {
     display: block;
+    /*position: relative;
+    right: -17px;*/
   }
 }
